@@ -46,6 +46,6 @@ def home():
     return render_template('index.html', poster_url=poster_url, image_path=image_path)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5100)
+    app.run(host='0.0.0.0', port=5001)
 
 
